@@ -37,6 +37,5 @@ public class Rectangulo  extends Figura{ // la palabra reservavada extend exteie
     Rectangulo () {
     }
     
-    Rectangulo rectangulo =
-            new Rectangulo ("Rectangulo", 5,10, false);
 }
+ 
