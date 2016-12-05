@@ -7,7 +7,7 @@ package programacion;
 
 /**
  *
- * @author Gustavo
+ * @author Gustavo R.
  */
 public  class Figura {
 // public abstract class Figura {  // el uso de abstract la convienrte en una clase abstracta que no puede ser derivada 
