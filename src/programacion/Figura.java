@@ -78,5 +78,14 @@ public  abstract class Figura {
                 "Ancho: " + ancho;
                 return s;
        }
+       
+       /* ahora vamos a crear un métodp de clase o estático, el cual
+        * NO depende de una instancia en particular y puede ser usado de manera
+        * global,SIN depender de objetos. Las operaciones comunes a todas las instancias
+        * suelen marcarse como métodps estáticos
+       */
+       static void metodoEstatico () {
+           System.out.println("Se ejecutó un método estático");
+       }
 }
-
+ 
