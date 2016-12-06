@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacion;
+package programacion;  // indica la pertenencia a un paquete (agrupacion de clases
+                      // o interfaces que tienen alguna relación 
 
 /**
  * @author Gustavo R.
  */
 public  abstract class Figura {
 // public abstract class Figura {  // el uso de abstract la convienrte en una clase abstracta que no puede ser derivada 
-    // Voy definiendo los atributos de la clase escribiendo como  tipo_de_dato identificadorAtributo1;
-    String nombre;
-    int alto;
-    int ancho;
+    // Voy definiendo los atributos de la clase escribiendo como  tipo_de_dato identificadorAtributo1; Uso el protected para proteger la defincion
+    // y que SOLO sea accesible a las clases del mismo paquete o sublcases de otros paquetes que se encuentren por herencia
+    protected String nombre;
+    protected int alto;
+    protected int ancho;
     final int constante = 10; //Definicion de una Constante
     static int cantidadDeFiguras; //Atributo Estático, existe una única copia sin depender de ninguna instancia 
     //Figura.cantidadDeFiguras = Figura.cantidadDeFiguras++;

@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacion;
+package programacion;  // indica la pertenencia a un paquete (agrupacion de clases
+                      // o interfaces que tienen alguna relación 
 
 /**
  *
@@ -12,7 +13,7 @@ package programacion;
 public class Ejemplo {
     public static void main (String [] args) {
 
-        Figura.metodoEstatico();        //Aqui llamo al métodp estático declarado en la cclase Figura
+        Figura.metodoEstatico();        //Aqui llamo al método estático declarado en la cclase Figura
             System.out.println("\n");   // Hago un salto de linea para hacer espacio
         
     /* Definimos un objeto de tipo Rectangulo cuya variable

@@ -7,7 +7,8 @@
  *
  * @author Gustavo
  */
-package programacion;
+package programacion;  // indica la pertenencia a un paquete (agrupacion de clases
+                      // o interfaces que tienen alguna relación 
 
 public class Principal {
     public static void main (String [] args){

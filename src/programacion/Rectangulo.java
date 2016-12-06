@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package programacion;
+package programacion;  // indica la pertenencia a un paquete (agrupacion de clases
+                      // o interfaces que tienen alguna relación 
 
 /**
  *
