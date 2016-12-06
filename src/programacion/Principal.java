@@ -12,7 +12,12 @@ package programacion;  // indica la pertenencia a un paquete (agrupacion de clas
 
 public class Principal {
     public static void main (String [] args){
-        Figura figura = new Figura (); //Aqui deberia Error COmpilacion si la clase padre es Abstracta
+        Figura figura = new Figura () {
+            @Override
+            float calcularArea() {
+                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+        }; //Aqui deberia Error COmpilacion si la clase padre es Abstracta
         figura.setNombre("Figura Ejemplo");
         figura.setAlto(2);
         figura.setAncho(4);

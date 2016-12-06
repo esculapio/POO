@@ -9,23 +9,15 @@ package figuras;
  *
  * @author Gustavo
  */
-public class Rectangulo {
-
-    public Rectangulo(String nombreFigura, int alto, int ancho, boolean esCuadrado) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public float calcularArea() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    public class Rectangulo extends Figura {
+public class Rectangulo extends Figura {
     private boolean cuadrado; // variable booleana que indica si el triángulo es un cuadrado o no.
-    
+
     public Rectangulo() {
         Figura.cantidadDeFigurasCreadas++;
     }
 
-    public Rectangulo(String nom, int alt, int anc, boolean cuad) {
+    public Rectangulo(String nom, int alt, int anc,
+boolean cuad) {
         nombre = nom;
         alto = alt;
         ancho = anc;
@@ -60,4 +52,4 @@ public class Rectangulo {
         return s;
     }
   }
-}
+
